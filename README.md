@@ -1,10 +1,13 @@
 # week-3-homework-1
 
-- Please study Ch06 off GoPL book.
-- Implement Sieve of Eratosthenes to find primes up to a given number
-- Implement prime factorization algorithm
-- Write a function that rotates given slice by given number of steps to the right or to the left.
-- Try to understand and run examples in following chapters of the repo
-  https://github.com/inancgumus/learngo Chapters 14,16.
-    
-## Do not forget to commit the initial and final work.
+## Exercises
+
+- Implement Sieve of Eratosthenes to find primes up to a given number [Sieve of Eratosthenes](./exercises/sieve_of_eratosthenes/main.go)
+- Implement prime factorization algorithm [prime factorization algorithm](./exercises/prime_fact_algo/main.go)
+- Write a function that rotates given slice by given number of steps to the right or to the left. [rotate slice](./exercises/rotate_left_right/main.go)
+
+## inancgumus/learngo
+
+- [Chapter 14](./learngo/ch14)
+- [Chapter 16](./learngo/ch16)
+

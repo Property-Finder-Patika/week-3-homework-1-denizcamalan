@@ -8,6 +8,9 @@ import (
 	"strconv"
 )
 
+// go build -o sieve main.go
+// ./sieve 29 (give some number)
+
 var prime []int
 var conv float64
 
@@ -17,16 +20,13 @@ func main(){
 		
 		n,err := strconv.Atoi(os.Args[1])
 		if err != nil{
-
 			log.Println("Given argument is not a number")
 		}
 		prime = make([]int, n-1)
 
 		for index := range prime {
-
 			prime[index] = index+2
 		}
-
 		fmt.Println(FindPrime(n))
 	}
 }
