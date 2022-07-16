@@ -46,3 +46,29 @@ func main() {
 	fmt.Printf("alives   : %t\n", alives)
 	fmt.Printf("zero     : %d\n", zero)
 }
+
+
+// output :
+
+/*
+names    : [3]string{"", "", ""}
+distances: [5]int{0, 0, 0, 0, 0}
+data     : [5]uint8{0x0, 0x0, 0x0, 0x0, 0x0}
+ratios   : [1]float64{0}
+alives   : [4]bool{false, false, false, false}
+zero     : [0]uint8{}
+
+names    : [3]string
+distances: [5]int
+data     : [5]uint8
+ratios   : [1]float64
+alives   : [4]bool
+zero     : [0]uint8
+
+names    : ["" "" ""]
+distances: [0 0 0 0 0]
+data     : [0 0 0 0 0]
+ratios   : [0.00]
+alives   : [false false false false]
+zero     : []
+*/
