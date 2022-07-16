@@ -9,5 +9,8 @@
 ## inancgumus/learngo
 
 - [Chapter 14](./learngo/ch14)
-- [Chapter 16](./learngo/ch16)
+
+## Book example
+
+- [Gopl ch6](./Gopl/ch6)
 
